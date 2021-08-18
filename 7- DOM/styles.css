@@ -1,0 +1,54 @@
+body {
+  overflow: hidden;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  border: 2px solid black;
+  background-color: black;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.puzzle-logo {
+  width: 20%;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+#avatar {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.white-text {
+  color: white;
+}
+
+.background-black {
+  background: black;
+}
+
+#repos-list {
+  display: flex;
+  flex-direction: column;
+}
