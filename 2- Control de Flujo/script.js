@@ -186,6 +186,7 @@ const wishesToRegister = confirm(
 
 do {
   if (wishesToRegister) {
+
     if (!registerUserName) {
       registerUserName = prompt("Ingresa tu nombre de usuario");
     }
@@ -204,6 +205,7 @@ do {
       }
     } else {
       alert("El nombre de usuario tiene que tener por lo menos 3 caracteres");
+      registerUserName = null
     }
   } else {
     alert("OK, te esperamos cuando gustes");
